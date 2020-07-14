@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>充值</title>
+        <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        <link href="css/base.css" rel="stylesheet" type="text/css">
+      
+        <link href="css/recharge.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> 
+        <script src="js/autosize.js"></script>
+        <script src="js/recharge.js"></script>
+ 
+    </head>
+<body>
+   
+   <div class="recharge">
+    <div class="header">
+      <div class="hLeft">
+          <a href="" class="goback"></a>
+      </div>
+      <div class="hMid">充值</div>
+      <div class="hRight"></div>
+    </div>
+     <!--  -->
+
+     <div class="rc">
+          <div class="rcI rc_01">
+             <div class="">
+               <ul class="mm mm01">
+                  <li><span>余额（元）</span><b class="remaining">0.00</b></li>
+                  <li><span>冻结（元）</span><b class="frozen">0.00</b></li>                
+               </ul>
+             </div>
+             <div class="">
+              <ul class="mm mm02">
+                 <li>今日统计</li>
+                 <li>任务收入<span class="taskIncome">100</span></li>                
+                 <li>收徒收入<span class="pupilIncome">100</span></li>                
+              </ul>
+            </div>
+          </div>
+          <div class="rcI rc_02">
+             <div class="cBox">
+               <input type="text" placeholder="" id="money">
+             </div>
+              <p><b>1</b>元等于<b>1</b>元人民币</p>
+              <div class="paytypeBox">
+                 <label for="ali"><input type="radio" class="rd" name="payType" id="ali" checked="true" value="1"> <img src="images/logoalipay.png" alt=""> </label>
+                 <label for="wx"><input type="radio"   class="rd" name="payType" id="wx" value="2"> <img src="images/logowx.png" alt=""></label>
+                            
+              </div>
+              <div class="btnRechargeW">
+                  <input type="button" class="btnRech" value="确认充值">
+              </div>
+              <div class="tips">
+                 <p>实名与支付宝名一直 否则无法充值</p>
+                 <p>充值成功后 仅支持支付宝提现</p>
+              </div>
+          </div>
+          <div class="rcI rc_03">
+             <dl>
+               <dt>充值说明</dt>
+               <dd>1 单词最低充值50元，上不封顶，欢迎充值</dd>
+               <dd>2 为防止信用卡套现，通过线上支付接口充值的金额，提现扣除3%的手续费。<span>如果查出套现洗钱嫌疑，将延迟5-7天时间（休息日除外），情节恶劣的将进行封号处罚和充值限制</span></dd>
+               <dd>3 如果充值后没有及时到账，请及时联系 <a href="">在线客服</a> 处理</dd>
+             </dl>
+          </div>
+     </div>
+   </div>
+</body>
+</html>

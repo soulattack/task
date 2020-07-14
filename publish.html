@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>发布任务</title>
+        <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        <link rel="stylesheet" href="css/date.css">
+        <link rel="stylesheet" href="css/mobileSelect.css">
+        <link href="css/base.css" rel="stylesheet" type="text/css">
+        <link href="css/pub.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script src="js/autosize.js"></script>
+     
+    </head>
+<body class="">
+  <div class="publish">
+    <div class="header">
+      <div class="hLeft">
+          <a href="" class="goback"></a>
+      </div>
+      <div class="hMid">发布任务</div>
+      <div class="hRight">  </div> 
+    </div>
+    <!-- header end -->
+    <div class="pub">
+       <div class="pub_s pub_s1">
+         <h2 class="psTle">
+             <span class="pub_sTle">任务信息</span>
+             <span class="psTool"><em>保存模板</em> <em>选择模板</em>  <a href="" class="btnClare">清空</a></span>
+  
+           
+         </h2>        
+       </div>
+       <div class="alertTip">
+         <h5>正确填写任务标签 否则会驳回你的任务</h5>
+       </div>
+       <div class="optWrap">
+         <ul class="operateList">
+          <li class="pItem">
+             <dl>
+               <dt>类型</dt>
+               <dd class="se">
+                <input type="text" placeholder="任务类型" class="taskType" id="trigger4">
+               </dd>
+             </dl>
+            </li>
+            <li>
+             <dl>
+              <dt>标题</dt>
+              <dd class="se">
+                <input type="text" placeholder="项目核心短标题，12个字" class="taskName">
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>标签</dt>
+              <dd class="se">  <input type="text" placeholder="平台名称" class="appName"></dd>
+              <dd class="thrd">
+                <span>平台名称</span>
+                <span>你推广的APP的名字</span>
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>单价</dt>
+              <dd class="se">  <input type="text" placeholder="最低0.5元" class="taskPrice"></dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>数量</dt>
+              <dd class="se">  <input type="text" placeholder="最少10单" class="taskNum"></dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>限时</dt>
+              <dd class="se"> 
+                 <input type="text" placeholder="1小时" class="limitTime" id="trigger1" value="">
+                 <!-- <div id="trigger1"></div> -->
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>审核</dt>
+              <dd class="se">  <input type="text" placeholder="1天" id="trigger2"></dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>截止</dt>
+              <dd class="se">  <input type="text" placeholder="任务截止时间"  id="date3" data-options="{'type':'YYYY-MM-DD hh:mm','beginYear':2010,'endYear':2088}"></dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>设备</dt>
+              <dd>
+                <div class="selectType deviceType">
+                 <span class="on" data-val="0">全部</span>
+                 <span data-val="1">安卓</span>
+                 <span data-val="2">苹果</span>
+                </div>            
+              </dd>
+            </dl>
+          </li>
+          <li>
+            <dl>
+              <dt>限次</dt>
+              <dd>
+                <div class="selectType funType">
+                  <span class="on" data-val="0">每人一次</span>
+                  <span data-val="1">每日一次</span>
+                  <span data-val="2">每日三次</span>
+                 </div>            
+              </dd>
+            </dl>
+          </li>
+       </ul>  
+       </div>
+      
+       
+       <div class="pub_s pub_s2">
+        <h2 class="psTle">
+               <span class="pub_sTle">任务说明</span>
+         </h2>
+        <div class="taskDes">
+                <textarea name="" id="des" cols="30" rows="3" placeholder="一句话简单描述任务（50字以内）"></textarea>
+        </div>
+       </div>
+       
+       <div class="taskStep">
+        <h2 class="psTle">
+            <span>任务步骤</span>
+            <span class="addStep"><b class="btnAddStep">增加图文步骤</b><b>增加网址步骤</b></span>
+          </h2>
+         <div>
+          <ul class="steps " id="taskStepList">
+                   <li>
+                     <dl>
+                       <dt>
+                         <i>1</i>
+                         <b>删除</b>
+                        </dt>
+                
+                       <dd class="stepstep">
+                          <div class="stImg"><input type="file" class="imgupload" id="file1"></div>
+                          <div class="stTxt"><input type="text" class="steptxt" placeholder="请输入步骤说明"></div>  
+                       </dd>
+                     </dl>
+                   </li>    
+          </ul>
+          </div>
+       </div>
+
+      <div class="check">
+        <h2 class="psTle">
+          <span>上传验证</span>
+          <span class="addStep"><b class="btnAddProv">增加收集截图</b><b>增加收集信息</b></span>
+        </h2>
+       <div>
+        <ul class="steps" id="taskProvList">
+                 <li>
+                   <dl>
+                    <dt>
+                      <i>1</i>
+                      <b>删除</b>
+                     </dt>
+                     <dd class="provstep">
+                      <div class="stImg"><input type="file" class="imgupload" id="file1"></div>
+                      <div class="stTxt"><input type="text" class="steptxt" placeholder="请输入步骤说明"></div>  
+                   </dd>
+                   </dl>
+                 </li>    
+        </ul>
+      </div>
+     </div>
+     <!-- pub end -->
+
+
+     <div class="agreeTips">
+        <p class="pt">我已阅读，理解并同意<a href="">发布规则</a></p>
+        <div class="ds1">
+           购买季卡，年卡的用户优先审核任务
+        </div>
+        <div class="ds2">
+          提示:平台禁止发布黄赌毒、谣言及涉政等一切法律禁止之内容,另禁止发布与平台同性质的软件或网站,违者将冻结账户,谢谢
+        </div>
+     </div>
+ 
+     <div class="botAction">
+       <div class="publishBtnW">
+          <a href="javascript:void(0);" class="publishBtn">发布任务</a>
+       </div>  
+     </div>
+
+  </div>
+
+<script type="text/javascript" src="js/jquery.date.js"></script>
+  <script src="js/publish.js"></script>
+  <script src="js/mobileSelect.min.js"></script>
+  <script type="text/javascript">
+    $.date('#date3');
+   // $.date('#date4');
+
+
+   var weekdayArr=['1','2','3','4','5','6','7'];
+
+        var mobileSelect1 = new MobileSelect({
+          trigger: '#trigger1',
+          title: '',
+          wheels: [
+                      {data: weekdayArr}
+                  ],
+          position:[2], //初始化定位 打开时默认选中的哪个 如果不填默认为0
+          transitionEnd:function(indexArr, data){
+         
+          },
+          callback:function(indexArr, data){
+              console.log(data);
+              $("#trigger1").val(data);
+          }
+      });
+   
+      var lmd=['1','2','3'];
+      var mobileSelect1 = new MobileSelect({
+          trigger: '#trigger2',
+          title: '',
+          wheels: [
+                      {data: lmd}
+                  ],
+          position:[2], //初始化定位 打开时默认选中的哪个 如果不填默认为0
+          transitionEnd:function(indexArr, data){
+         
+          },
+          callback:function(indexArr, data){
+              console.log(data);
+              $("#trigger2").val(data);
+          }
+      });
+
+        var typeArr=[];
+        $.ajax({        
+           url:"http://shop.xzwanqun.com/task/Task/type",
+           type:"post",
+           async:false,
+           dataType:"json",
+           success:function(res){
+             console.log(res.result);
+              for(var i=0;i<res.result.length;i++){
+
+                typeArr.push (res.result[i].name);
+                console.log(typeArr);
+              }     
+           }          
+        })
+
+
+
+
+
+        console.log(typeArr)
+        var mobileSelect4 = new MobileSelect({
+          trigger: '#trigger4',
+          title: '',
+          wheels: [
+                      {data: typeArr}
+                  ],
+          position:[2], //初始化定位 打开时默认选中的哪个 如果不填默认为0
+          transitionEnd:function(indexArr, data){
+         
+          },
+          callback:function(indexArr, data){
+              console.log(data);
+              $("#trigger4").val(data);
+          }
+      });
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

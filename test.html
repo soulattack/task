@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>个人</title>
+        <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        <link href="css/base.css" rel="stylesheet" type="text/css">
+
+      <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <!-- <script type="text/javascript" src="js/TouchSlide.1.1.js"></script> 
+        <script type="text/javascript" src="js/touchslider.dev.js"></script> -->
+        <script src="js/autosize.js"></script>
+ 
+    </head>
+<body>
+
+ 
+</body>
+
+
+<script>
+
+function getData(){
+  $.ajax({
+
+       //  url:url+"/task/Task/tasklist",
+        url:"http://www.shop.com/task/Task/type",
+        type:"post",
+        dataType:"json",      
+        data:{   },
+                 
+        
+        success:function(res){
+
+        console.log(res)
+      
+    
+
+        
+        },
+        error:function(){
+
+
+        }
+
+    })
+
+}
+
+
+
+</script>
+</html>

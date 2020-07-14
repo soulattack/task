@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>首页</title>
+        <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        <link href="css/base.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="js/TouchSlide.1.1.js"></script>
+  
+        <script type="text/javascript" src="js/touchslider.dev.js"></script>
+        <script type="text/javascript" src="js/autosize.js"></script>
+       
+      
+    </head>
+<body style="background: white;">
+  
+    <div id="scrollimg" class="scrollimg">
+        <div class="bd">
+           <div class="tempWrap" style="">
+               <ul style="">
+                   <li style=""><a href=""><img src="images/banner/b01.jpg" title="" style="" width="100%"></a></li>
+                   <li style=""><a href=""><img src="images/banner/s2.jpg" title="" style="" width="100%"></a></li>
+                   <li style=""><a href=""><img src="images/banner/s1.jpg" title="" style="" width="100%"></a></li>                                
+                  <li style=""><a href=""><img src="images/banner/s2.jpg" title="" style="" width="100%"></a></li></ul>
+              </div>
+        </div>
+        <div class="hd">
+          <ul></ul>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+          TouchSlide({ 
+              slideCell:"#scrollimg",
+              titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+              mainCell:".bd ul", 
+              effect:"leftLoop", 
+              interTime:1500,
+              autoPage:true,//自动分页
+              autoPlay:true //自动播放
+          });
+      </script> 
+
+   <div class="mid">
+      <div><a href="">
+          <img src="images/maks.jpg" alt="">
+      </a></div>
+   </div>
+   <div class="indexTaskRecommand">
+     <h3><a href=""><span>推荐任务</span></a></h3>
+     <ul class="taskList">
+         <!-- 
+         <li class="taskItem">
+           <a href="">
+               <dl>
+                   <dt><img src="images/user/s1.jpg" alt=""></dt>
+                   <dd class="d1">
+                       <div class="c1">
+                           <span>轻松赚钱明天的早饭钱</span>
+                       </div>
+                       <div class="c2"><span>1小时内发布</span></div>
+                       <div class="c3">
+                           <span>特色任务</span>
+                           <span>绑定任务</span>
+                       </div>
+                   </dd>
+                   <dd class="d2"><b>赏99.9元</b></dd>
+               </dl>
+           </a>
+         </li>
+        -->
+     </ul>
+   </div>
+   
+   <div class="botNav">
+       <ul>
+           <li><a href=""><i class="home"></i><span>首页</span></a></li>
+           <li><a href=""><i class="task"></i><span>任务大厅</span></a></li>
+           <li class="spc"><a href=""><i class="publish"></i><span>发布任务</span></a></li>
+           <li><a href=""><i class="shop"></i><span>商城</span></a></li>
+           <li><a href=""><i class="mine"></i><span>我的</span></a></li>
+       </ul>
+   </div>
+</body>
+
+
+<script type="text/javascript" src="js/tools.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

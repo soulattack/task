@@ -1,0 +1,40 @@
+
+.submitC{ padding: 10px;}
+.sc01{}
+
+.contact{ padding: 10px 0; text-align: center;}
+.contact a{  color: #ff4b2b;}
+
+
+
+.taskDes { display: flex;}
+.taskDes  dt{ width: 80px;}
+.taskDes  dt img{width: 100%;}
+
+
+.publishBtnW{ height: 36px; margin: 0 20px; }
+.publishBtnW .publishBtn{ display: block; line-height: 36px; background: #2484d8; text-align: center; font-size: 18px; color: white; border-radius:5px }
+
+
+.uploadImgList{ margin: 10px 0 ; height: auto; overflow: hidden; }
+.uploadImgList li{ border:1px dashed #d8d8d8; width: 26%;  margin: 0 15px 0 0;  float: left; }
+.uploadImgList li div {
+     width: 100%; height: 0; padding-bottom:100% ; position: relative;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100%;
+   background-image: url(../images/upload.png);
+}
+.uploadImgList li div input{ 
+    opacity: 0; width: 100%; height: 100%; display: block;
+    position: absolute;
+    top:0;
+    height: 100%;
+}
+
+
+.otherDes{ 
+    /* margin: 10px; */
+     border: 1px solid #eee;
+    }
+.otherDes textarea{ resize: none; border: none; padding: 2%; width: 96%;}

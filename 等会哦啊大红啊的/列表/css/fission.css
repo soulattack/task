@@ -1,0 +1,193 @@
+.fMain{background: #ff4061; padding: 45px 0 20px 0;}
+.fMain .banner{ width: 100%; position: relative;}
+.fMain .banner img{ width: 100%; }
+
+ .btnShare{
+     display: block;
+     position: absolute;
+     right: 15px;
+     top:10px; 
+     width: 30px; height: 30px;
+  background: url(../images/icon/share.png) no-repeat center;
+  background-size: contain;
+}
+
+
+
+.btnArea{ padding: 20px 0; position: relative;}
+.btnArea a.btnFs{
+    display: block;
+  height: 36px;
+  line-height: 36px;
+  font-size: 18px;
+  background: #ffe224;
+  color:#7c3a00 ;
+  border-radius: 5px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.btnArea a.prev{
+    display: block;
+    position: absolute;
+    right: 10px;
+    top:25px;
+    background: white;
+    color: red;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.fBox{ margin: 0px 20px 0px 20px; background: white; border-radius: 10px;}
+.fBox .fbTle{ height: 40px; line-height: 40px; text-align: center; color: #a45205; font-weight: 400;}
+.fissionList{padding: 0 0 10px 0;}
+.fsItem {margin: 2px 0;}
+.fsItem dl{
+    display: flex;
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+}
+.fsItem dl dt{width: 30px; margin: 0 10px;}
+.fsItem dl dt img{width: 100%;}
+
+.fsItem dl dd.fsInfo{flex:1;}
+.fsItem dl dd.fsMoney{width: 60px; font-size: 16px; color: #ec4f26;}
+.fsItem dl dd.fsAction{width: 60px;}
+.fsItem dl dd.fsAction a{
+    display: block;
+    height: 24px;
+    width: 50px; line-height: 24px;
+    text-align: center;
+    background: linear-gradient(#f8c0c9,#ff879b);
+    color: white;
+    border-radius: 15px;
+    border:2px solid #ff879b ;
+}
+
+.fsInfo h4{ font-size: 14px;color: #a45205; font-weight: 400;}
+
+.fsProgressBox b{color: #a45205;font-weight: 400;}
+.fsProgress{
+    display: inline-block; 
+   
+    margin: 0 5px 0 0; 
+    height:6px; 
+    width: 75%; 
+    border-radius:5px; 
+    position: relative;
+     overflow: hidden; background: #eee;
+     box-shadow: 0 0 3px #e1e1e1 inset;
+    }
+
+
+.fsProgress em{position: absolute; top:0;left:0; height: 100%;border-radius:5px 0 0 5px;background: #ff8135;}
+
+
+.fbox02{padding: 0 0 10px 0;}
+.fbox02 .fbTle{
+    color:red
+}
+
+.fbox02 .sTag{display: flex;}
+.fbox02 .sTag span{flex:1; text-align: center;}
+
+.fbox02 .sortList{}
+.fbox02 .sortList li{display: flex;}
+.fbox02 .sortList li>div{ flex:1;}
+
+.s1 .rankNum{ 
+ 
+}
+.rankCountW{
+    height: 40px;position: relative;
+}
+.rankCount{  
+    height: 100%;
+   margin: 0 0 0 20px;
+position: relative;
+display: block;
+}
+.rankCount i{  
+     display: inline-block;
+     position: absolute;
+
+    height: 35px; width: 25px;
+     line-height: 40px;
+     text-align: center;
+    
+    color: red;
+    background: url(../images/firex.png) no-repeat center;
+
+    background-size: contain;
+    z-index:2;
+}
+.rankCount em{ 
+    display: inline-block;
+     background:#fd7133 ; color: white;
+    position: absolute;
+    padding: 0 10px 0 20px;
+    z-index: 1;
+    top: 10px;
+    top: 10px;
+   left: 10px;
+  
+}
+.fbox02 .sortList li div.s2{ text-align: center; height: 40px; line-height: 40px; font-size: 15px;color:#fd7133 ;}
+.fbox02 .sortList li div.s3{text-align: center; height: 40px;line-height: 40px;font-size: 15px;color:#fd7133 ;}
+
+.pageCtrl{ text-align: center; padding: 10px 0;}
+.pageCtrl a{display: inline-block; margin: 0 5px; width: 40px;  height: 20px; position: relative; border:1px solid #eee}
+.pageCtrl a.btnPrev::after{
+    content: "";
+    position: absolute;
+    width: 10px; 
+    height: 10px;
+    border-top:1px solid #666;
+    border-left:1px solid #666;
+    border-bottom:1px solid white;
+    border-right:1px solid white;
+    transform: rotate(45deg);
+    left: 50%;
+    top:50%;
+    margin: -2px 0 0 -7px;
+}
+.pageCtrl a.btnNext::after{
+    content: "";
+    position: absolute;
+    width: 10px; 
+    height: 10px;
+    border-top:1px solid #666;
+    border-left:1px solid #666;
+    border-bottom:1px solid white;
+    border-right:1px solid white;
+    transform: rotate(225deg);
+    left: 50%;
+    top:50%;
+    margin: -8px 0 0 -7px;
+}
+
+.master{ display: flex; align-items: center;}
+.master dt { margin: 0 0 0 20px;}
+.master dt img{ width: 50px; border-radius: 50%;}
+.master dd{ margin: 0 0 0 10px; font-weight: 400!important;}
+.master dd b{ color:#fd7133 ;}
+.master dd h3{ font-weight: 400!important;}
+
+.botLinks { display: flex; align-items: center; margin: 0 20px;}
+.botLinks div{ flex: 1;}
+.botLinks .bb01 a{ color:#00aced}
+
+.botLinks .bb02 a{ display: block;
+  width: 100px; 
+  height: 34px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 34px;
+  background: #ff6a6c;
+  color: white;
+  font-size: 16px;
+ 
+  float: right;
+
+}

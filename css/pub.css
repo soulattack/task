@@ -1,0 +1,136 @@
+
+.pub{
+
+}
+
+.pub_s{
+    background: white;
+    margin: 10px 0 0 0;
+} 
+.psTle{ 
+    font-weight: 400; height: 45px; line-height: 45px;
+    padding: 0 0 0 40px;
+    background: url(../images/books.png) no-repeat 10px center ;
+    background-size: 20px;
+    font-size: 16px;
+    position: relative;
+}
+
+.pub_s1 .psTle .btnClare{}
+.psTool{ float: right;}
+.psTool a{  padding: 0 10px;color: #00aced;}
+
+.alertTip{ padding: 10px; text-align: center; color:#ff4641 ; font-size: 16px;}
+.optWrap{background: white; padding: 10px 0;}
+.operateList{}
+.pItem{ }
+.operateList{padding: 0 10px;}
+.operateList li{ margin: 15px 0;}
+.operateList li dl{ display: flex; font-size: 14px; align-items: center;}
+.operateList li dl dt{
+     width: 60px; text-align: center; 
+    /* background: red; */
+}
+.operateList li dl dd{}
+.operateList li dl dd input{ border:none;
+    /* background: wheat; */
+}
+.operateList li dl dt{}
+.operateList li dl .se{ } 
+   
+    
+   
+.operateList li dl .thrd{ 
+    /* width:120px; */
+    font-size: 12px;
+}
+.operateList li .thrd span{display: block;}
+
+
+.selectType{}
+.selectType span{ display: inline-block; border:1px solid #eee; padding: 5px 8px; margin: 0 7px 0 0;}
+.selectType span.on{  border:1px solid #00aced; background: url(../images/curr.png) right bottom no-repeat;
+  background-size: 15px;
+}
+
+
+.taskDes{ margin: 0 5px;}
+.taskDes textarea{ border:none;resize: none;}
+
+.addStep{
+     position: absolute;
+  right: 5px;
+  top:0;
+  display: flex;
+  border:1px solid #00aced;
+  font-size: 14px;
+  border-radius:20px;
+   height: 30px;
+   line-height: 30px;
+  
+}
+.addStep b{
+ color: #00aced;
+  padding: 0 5px;
+}
+.addStep b:first-child{border-right:1px solid #00aced ; }
+
+.taskStep{margin: 10px 0 0 0;background: white;  padding: 5px 0;}
+
+.steps{ }
+.steps li{ padding: 0 0px 0px 10px ;  margin: 5px 0;}
+.steps  dl{display: flex; text-align: center;}
+.steps  dl dt{ width: 50px; margin: 0 auto;}
+.steps  dl dt i{margin: 5px auto;  width: 20px; height: 20px; display: block; line-height: 20px; text-align: center;background: #00aced; color: white; border-radius: 10px;}
+.steps  dl dt b{}
+
+.steps  dl dd{  flex:1;}
+.steps  dl dd p{  border-bottom: 1px solid #eee;}
+.steps  dl dd input{border: none;  height: 36px;   display: block;}
+
+.check{
+    margin: 10px 0 0 0;background: white;  padding: 5px 0;
+}
+
+.agreeTips{
+     margin: 10px 0 0 0; 
+    padding: 10px 20px ;
+}
+.pt{color: #2c2c2c;}
+.pt a{color: #00aced; margin: 0 10px;}
+.agreeTips .ds1{color:red;margin: 5px 0;}
+
+.botAction{
+    
+    /* position: fixed;
+    width: 100%;
+    bottom: 0; */
+}
+.publishBtnW{ height: 36px; margin: 0 20px; }
+.publishBtnW .publishBtn{ display: block; line-height: 36px; background: #2484d8; text-align: center; font-size: 18px; color: white; border-radius:5px }
+
+
+.stepstep{ display: flex;}
+.stepstep .stImg{ width: 50px; height: 50px; border:1px dashed red; 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.stepstep .stImg input{opacity: 0; width: 100%; height: 100%; display: block;}
+.stepstep .stTxt{flex: 1; padding: 0 10px; border-bottom:1px solid #eee;}
+
+
+.provstep{ display: flex;}
+.provstep .stImg{ width: 50px; height: 50px; border:1px dashed red; 
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.provstep .stImg input{opacity: 0; width: 100%; height: 100%; display: block;}
+.provstep .stTxt{flex: 1; padding: 0 10px; border-bottom:1px solid #eee;}
+
+

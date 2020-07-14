@@ -1,0 +1,13 @@
+.contact{ padding: 10px 0; text-align: center;}
+.contact a{  color: #ff4b2b;}
+
+
+
+.taskDes { display: flex;}
+.taskDes  dt{ width: 80px;}
+.taskDes  dt img{width: 100%;}
+
+
+.publishBtnW{ height: 36px; margin: 0 20px; }
+.publishBtnW .publishBtn{ display: block; line-height: 36px; background: #2484d8; text-align: center; font-size: 18px; color: white; border-radius:5px }
+

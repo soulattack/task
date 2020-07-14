@@ -1,0 +1,20 @@
+
+
+ul,li{margin: 0; padding: 0;}
+li{list-style: none;}
+
+.sc{
+     height: 300px;
+      border:1px solid #f16161;
+     overflow-y: scroll;
+
+
+}
+
+.list{}
+.list li{ 
+      height: 50px; margin: 3px; background: #eee;
+      line-height: 50px;
+      font-size: 16px;
+      padding: 0 10px;
+}

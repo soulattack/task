@@ -1,0 +1,262 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+.header .lvSelBtn{ color: yellow; margin: 0 0 0 20px;}
+
+.header .hRight{width: 15%}
+.topSerch{
+        background: url(../images/search.png) center no-repeat;
+        background-size: 20px;
+}
+
+html,body{height: 100%;}
+
+.level{ height: 100%; }
+
+
+
+.lvCont{
+   padding: 0px 0 0 0; 
+   position: relative;
+    overflow: scroll;
+   height: 100%;
+  }
+.lvCont .lvTabs{ 
+  display: flex; 
+  position: fixed;
+  width: 100%;
+  top: 45px;
+  z-index: 10;
+  background: #f3f3f3;
+}
+
+.lvListW{ padding:85px 0 0 0;}
+.lvCont .lvTabs span{ flex: 1; text-align: center; line-height: 34px; font-size: 14px;}
+.lvCont .lvTabs .alltype{ padding: 0 15px; color: #ee6e15; position: relative;}
+.lvCont .lvTabs .alltype::after{
+   content: "";
+   border-top: 1px solid #ee6e15;
+   border-left: 1px solid #ee6e15;
+   transform: rotate(225deg);
+   width: 8px;
+   height: 8px;
+   display: block;
+   right: 0;
+   top:12px;
+   position: absolute;
+}
+
+.dx{padding: 45px 0 0 0;}
+
+
+
+
+
+
+
+
+
+
+.taskItem {padding: 10px 0; border-bottom: 1px solid #eee;}
+
+.taskItem a{ display: block; margin: 0 10px;}
+.taskItem dl{}
+.taskItem dl { display: flex;}
+.taskItem dl dt{width: 20%;}
+.taskItem dl dt img{width: 100%;  height: 100%; border-radius: 50%;}
+.taskItem dl dd.d1{flex:1; margin: 0 0 0 1rem;}
+.taskItem dl dd.d1 .c1{font-size: 16px;color:#073745}
+.taskItem dl dd.d1 .c2{font-size: 12px;color:#666}
+.taskItem dl dd.d1 .c3{font-size: 16px;color:#073745}
+.taskItem dl dd.d1 .c3 span{font-size: 12px;background:#98adfc;color:white;padding: 2px 3px;}
+
+.taskItem dl dd.d2{width: 22%;}
+.taskItem dl dd.d2 b{ font-size: 16px;color: orange;}
+
+.d2{}
+.d2 .dico{ 
+    display: block;
+    width: 30px; height: 30px;
+    margin: 10px 0 0 0;
+ 
+  
+}
+.d2 .dico_money{
+       background: url(../images/mn.png) no-repeat center;  background-size: contain;
+}
+
+.bigcover{
+   position: fixed; width: 100%; height: 100%; top: 0; 
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+
+.bigcover .selectBoard{
+
+    width: 75%;
+    margin: 40% auto 0;
+    background: white;
+    border-radius:10px ;
+    padding: 10px 10px;
+
+}
+
+.bigcover .selectBoard h3{font-size: 18px; text-align: center; margin: 10px 0;}
+
+.bigcover .selectBoard ul{ font-size: 16px;}
+.bigcover .selectBoard ul li{ margin: 20px 0; display: flex;align-items: center;}
+.bigcover .selectBoard ul li i{
+    display: block;
+   width: 20px; height: 20px;
+   background: white;
+   border:1px solid #666;
+   border-radius:50%; 
+   margin: 0 10px 0 4px;
+   position: relative;
+}
+
+.bigcover .selectBoard ul li.sel i{
+    border:1px solid green;
+
+}
+.bigcover .selectBoard ul li.sel i::after{
+  position: absolute;
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: green;
+  left: 3px;
+  top: 3px;
+  border-radius: 50%;
+}
+
+.bigcover .selectBoard ul li span{ flex: 1;}
+
+.save{ text-align: center; border-top: 1px solid #eee; padding: 10px 0 0px 0;}
+
+.save a{ color: #00aced;}
+
+
+
+/* xianqing */
+
+.header .hRightS{ 
+  width: 25%;
+}
+.header .hRightS .shareBtn{
+  color: white;
+  background: url(../images/icon/share.png) no-repeat 0 center;
+  background-size: 20px;
+  display: block;
+  height: 45px;
+ padding:0 0 0 20px
+}
+.dx{ padding: 0 0  50px 0;}
+
+.dx_i1{background: white;}
+
+.dxUser { display: flex; padding: 10px 5px 5px 5px;}
+dl.dxUser dt{width:17%;}
+ dl.dxUser dt img{width: 100%;border-radius: 50%;}
+ dl.dxUser dd.d1{flex:1; margin: 0 0 0 1rem; overflow: hidden;}
+ dl.dxUser dd.d1 .c1{font-size: 16px;color:#073745;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 3px 0;
+}
+ dl.dxUser dd.d1 .c1 .tid{border:1px solid #073745}
+
+ dl.dxUser dd.d1 .c2{font-size: 12px;color:#666}
+ dl.dxUser dd.d1 .c3{font-size: 16px;color:#073745}
+ dl.dxUser dd.d1 .c3 span{}
+
+ .xstyle{}
+ .xstyle span{ border-radius: 3px;font-size: 12px;color:white;padding: 2px 3px;}
+ .xstyle span.sx01{ background:#2bd6cd;}
+ .xstyle span.sx02{background: #10e437;}
+ dd.price{ width: 60px;}
+ dd.price b{display: block; text-align: center; font-size: 18px;  font-weight: 400;  color: red; margin: 25px 0 0 0;}
+
+ .statistic{ }
+ .statistic ul{ display: flex; padding: 10px 0; color: #666;}
+ .statistic ul li{ flex: 1; text-align: center; font-size: 14px; border-right:1px solid #eee}
+ .statistic ul li:last-child{border:none}
+ .statistic ul li span{display: block;font-size: 18px;}
+ .statistic ul li em{display: block; margin: 3px 0;}
+ .statistic ul li b{display: block; color: #db711b;font-size: 18px; }
+
+ .dx_i2{
+   margin: 10px 0 0 0;
+   background: white;
+   padding: 0 0 10px 0;
+ }
+
+ .dx_i2 h3{
+   text-align: right;
+   padding: 4px 10px;
+ }
+
+ .dx_i2 h3 span{
+  color: red;
+}
+
+.sttDes{ margin: 10px;
+  border:2px dashed #c48540;
+  padding:5px;
+}
+
+.dx_i3{
+  margin: 10px 0 0 0;
+  background: white;
+  padding: 10px 15px;
+}
+
+h2.dxTle{ padding: 5px 0;}
+.dx3_Des{margin: 10px 0 0 0;}
+.dx3_Des p{ font-size: 16px;}
+
+.dx_i4{ margin: 10px 0 0 0;
+  background: white;
+
+}
+
+.dx_i4 .dxTle_4{ padding:10px 15px;}
+.dx_i4 .tStep{  padding: 10px 15px; border-top:1px solid #eee}
+.tStep li{ margin: 5px 0 15px 0;}
+.tStep li dl{ display: flex;}
+.tStep li dl dt{width: 30px; margin: 0 10px  0 0;}
+.tStep li dl dt i{
+   display: block; width: 24px; height: 24px; line-height: 24px; text-align: center;
+  background: #00aced;
+  color: white;
+  border-radius: 50%;
+}
+
+.tStep li dl dd{ flex: 1;}
+.tStep li dl dd .dxDes{ font-size: 16px; margin: 0 0 10px 0;}
+.tStep li dl dd .dxDes p a{color: #00aced; padding: 0 5px;}
+
+
+.tStep  .dxImg{width: 40%;}
+.tStep  .dxImg img{width: 100%;}
+
+.declare{ margin: 10px 0 0 0 ; 
+ background: white;
+ padding: 20px;
+}
+
+
+.declare a{color: #0700f4;}
+
+
+.botActionW{position: fixed; width: 100%; bottom: 0;}
+.botAction{ height: 50px; display: flex; justify-items: center;}
+.botAction a{color: white;text-align: center;}
+.botAction .btnSign{width: 65%;  background: #2484d8; }
+.botAction .btnSign span{display: block; line-height: 28px; font-size: 18px;}
+.botAction .btnSign em{display: block;}
+.botAction  .btnChange{background: #ff7300; width: 35%; line-height: 50px; font-size: 20px;}

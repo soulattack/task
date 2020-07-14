@@ -1,0 +1,87 @@
+.header{position: fixed; width: 100%; top:0}
+
+.header .hRight a.rules{color: white; font-size: 15px; text-align: right;}
+
+.disciple{padding: 45px 0 0 0;}
+
+.topMsg{background:#e5680b ; color: white; height: 32px; line-height: 32px; color: #fded4f; text-align: center;} 
+
+.dm_01{background: #ff710b; overflow: hidden; }
+
+.board{ padding: 20px 0; text-align: center; color: white;}
+.board h2{ padding: 10px 0 25px 0; font-size: 24px;}
+.board p{ font-size: 15px; width: 94%; margin: 0 auto; border-radius:30px; background: #ff8657; padding: 10px 0;}
+.dBox{margin: 10px; padding: 10px 15px; background: #fff9f1; border-radius: 15px;}
+.dBox h3{color: #b2a26e; font-weight: 400;}
+.dBox .dList{display: flex; font-size: 14px; margin: 15px 0 5px 0;}
+.dBox .dList li{text-align: center;}
+.dBox .dList li b{display: block;color:#fb5034;font-size: 18px; margin: 0 0 4px 0;}
+.dBox .dList li span{display: block; color: #b2a26e;}
+
+.dBox .dList_01 li{ width:25%  ;}
+
+
+
+.dBox .dList_02 li{ width:33%  ;}
+
+.dBox .dList_02 li .btnG{
+     width: 70%; margin:0px auto 0; height: 22px; line-height: 22px;
+    border-radius:14px;border:1px solid #efa288;
+    color: white;
+    background: linear-gradient(#f7d29d,#ff9873);
+   cursor: pointer;
+}
+
+.tabsW{}
+.tabsW .tabs{ display: flex;height: 42px;background: white; border-bottom: 1px solid #eee;}
+.tabsW .tabs li{ flex:1; height: 40px; line-height: 40px;text-align: center; font-size: 16px;}
+.tabsW .tabs li.curr{  }
+.tabsW .tabs li span{display: block; width: 80%; margin:0 auto;}
+.tabsW .tabs li.curr span{border-bottom: 2px solid #f83033;}
+
+.art{}
+.art dt{ margin: 0 10px 10px 10px; padding: 10px;border-radius:10px}
+.art dt textarea{ 
+     width: 96%; height: 96%; padding: 2%;
+      background: #f7f7f7; 
+      border:none;
+      border-radius:5px;resize: none; 
+     color: #1a1a1a;
+}
+.art .btnCopy{    
+     display: block; 
+     background: linear-gradient(to right,#fbaa6f,#ff710b);
+     height: 50px; line-height: 50px;
+     /* margin: 0 5%; */
+     margin: 0 20px;
+     border-radius:5px;color: white; text-align: center;
+     font-size: 18px;letter-spacing: 1px;
+  
+}
+
+.dm_03{ margin: 10px 0;}
+.dm_03 h3{ padding:  8px 15px; font-size: 16px;}
+
+.tui{}
+.tui li{ margin: 10px 0;}
+.tui a{display: block;}
+.tui a dl{display: flex; align-items: center; margin: 0 30px;}
+.tui a dl dt{width: 50px;}
+.tui a dl dd{
+      flex:1; 
+      margin: 0 0 0 10px;
+}
+.tui a dl dt img{ width: 100%; }
+
+.tui a dl dd{ color: #7d7d7d;}
+.tui a dl dd .p1{ font-size: 16px; color: #525252; font-weight: bold;}
+
+
+.rules{ margin: 20px 10px; }
+.rules h2{
+     padding: 8px 15px;
+     font-size: 16px;
+     }
+.rules>div{ margin: 5px 0; font-size: 12px; padding: 0 10px;}
+
+.rules div span.red{color:#e80e0c; font-weight: bold;}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>任务详情</title>
+        <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+        <meta content="yes" name="apple-mobile-web-app-capable">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        <link href="css/base.css" rel="stylesheet" type="text/css">
+        <link href="css/lv.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+        <script src="js/autosize.js"></script>
+        
+    </head>
+<body>
+  <div class="level">
+    <div class="header">
+      <div class="hLeft">
+          <a href="" class="goback"></a>
+      </div>
+      <div class="hMid">悬赏等级</div>
+      <div class=" hRightS">
+          <a href="" class="shareBtn">分享有奖</a>
+      </div>
+    </div>
+ 
+  
+    <!--  -->
+   <div class="dx dxd"> 
+          <div class="dx_i1">     
+                  <dl class="dxUser">
+                      <dt>
+                         <!-- <img src="image.gif" onerror="this.src='http://www.baidu.com/img/flexible/logo/pc/result.png'"/> -->
+                        <!-- <img src="" alt="" id="userImg" onerror="javascript:this.src='images/user/shopheader.png';this.onerror=null"/> -->
+                        <img src="" alt="" id="userImg"/>
+                      <!-- <dt><img src="" alt="" id="userImg" οnerrοr="imgExists(this)"/> -->
+                       <!-- <a href="">关注</a> -->
+                      </dt>
+                      <dd class="d1">
+                          <div class="c1">
+                              <span class="tid" id="tid"></span>
+                              <span class="tTle" id="tTle">轻松赚钱明天的早饭钱</span>
+                          </div>
+                          <!-- <div class="c2"><span>1小时内发布</span></div> -->
+                          <div class="c3 xstyle">
+                              <span class="sx01">认证绑卡</span>
+                              <span class="sx02">米乐魔方</span>                           
+                          </div>
+                      </dd>
+                       <dd class="price">
+                            <b id="price">99元</b>
+                       </dd>                 
+                  </dl>
+
+                  <div class="statistic">
+                   <ul>
+                     <li><span id="settleNum"></span> <em>已完成数</em></li>
+                     <li ><span id="checkTime"></span> <em>限制审核</em></li>
+                     <li><span id="limitTime"></span> <em>限时完成</em></li>
+                     <li><b id="depositFund">￥200</b> <em>托管资金</em></li>
+                   </ul>
+                  </div>
+          </div>
+         <!--dx_i1 end  -->
+          <div class="dx_i2">
+                <h3><span id="tStatus">进行中</span></h3>
+                <div class="sttDes">
+                   <p class="des01">100元，悬赏主已缴纳保证金</p>
+                   <p class="des02">
+                      悬赏打钱，投资的任务一律不能做，否则亏钱字符！</br>
+                      请先报名在做任务，否则无赏金
+                   </p>
+                   <p class="des03">提现奖励计划，提现完成之后一个悬赏的首单奖励——0.5元</p>
+           
+                </div>
+          </div>
+
+          <div class="dx_i3">
+            <h2 class="dxTle"><span>任务说明</span>/<span id="device">不限设备</span></h2>
+            <div class="dx3_Des">
+              <p id="desc">
+                任务说明不限设备 ，扫码铭文即可领取15个豆，每个20元，可兑换300元
+              </p> 
+            
+            </div>
+        </div>
+
+        <div class="dx_i4">
+          <h2 class="dxTle dxTle_4"><span>任务步骤/流程</span></h2>
+          <ul class="tStep">
+            <!--  <li>
+                 <dl>
+                   <dt><i>1</i>                
+                  </dt>
+                  <dd>
+                    <div class="dxDes">
+                       <p><span>注册邀请码123456</span><a href="">复制</a></p>
+                    </div>
+                    <div class="dxImg">
+                       <div class="imgbox">
+                            <img src="images/task/1.jpg" alt="">
+                       </div>
+                   </div>
+                 
+                 </dl>
+              </li>
+               <li>
+                <dl>
+                  <dt><i>2</i>             
+                  </dt>
+                  <dd>
+                       <div class="dxDes"> 
+                       <p><span>请按照要求完成任务 并截图上传凭证，分分钟即可获取优厚悬赏金</span>
+                      <a href="">复制</a></p>
+                       </div>
+                       <div class="dxImg">
+                        <div class="imgbox">
+                             <img src="images/task/2.jpg" alt="">
+                        </div>
+                    </div>
+                  </dd>
+                
+               
+                </dl>
+             </li> -->
+
+        
+
+         </ul>
+        </div>
+   
+    <div class="declare">
+      <div>
+        <p>
+          平台只对任务单价方位做出担保，如产生额外费用或者纠纷，平台不负责解决，您接单即表明同意并遵守上述原则，
+          否则请勿接单。如果该任务you违规行为请点击这里进行<a href="">举报</a>，平台禁止任何形式的线下交易，一经查实立即冻结相关账号，
+          月不予退还，并给予举报者以奖励</br>
+          直接联系 <a href="">平台客服>></a>
+        </p>
+      </div>
+    </div>
+
+
+   </div>
+
+   <div class="botActionW">
+      <div class="botAction statusType_sign">
+         <div class="baInner">
+               <a href="javascript:;" class="btnSign" id="btnSign">
+                      <span>报名悬赏</span>
+                      <em>  <b id="time">（每人限做一个）</b></em>
+                  </a>
+                  <a href="" class="btnChange">换一个</a>
+         </div>
+      
+      </div>
+      <div class="botAction statusType_cancle">
+
+        <div class="baInner">
+            <a href="javascript:;" class="btnCancle" id="btnCancle">
+                      <span>放弃</span>        
+                    </a>
+                    <a href="" class="btnTosub">去交稿</a>
+        </div>
+       
+     </div>
+     <div class="botAction statusType_resign">
+       <div class="baInner">
+          <a href="" class="btnChange">换一个</a>
+                <a href="javascript:;" class="btnResign" id="btnResign">
+                <span>已放弃，重新报名</span>
+              
+              </a>
+       </div>
+      
+   </div>
+   </div>
+
+  </div>
+  <div class="sTips">
+     <i><img src="images/success.png" alt=""></i>
+     <span>报名成功</span>
+  </div>
+  <div class="bigcover" style="display: none;">
+        <div class="confirmWrap">
+            <div class="confirmBox">
+               <dl>
+                 <dt>报名提示</dt>
+                 <dd class="ddDes">我已经仔细阅读了任务的操作步骤，并且会在完成任务后需要交稿的步骤中上传相关截图</dd>
+                 <dd class="ddAction">
+                    <span><a href="javascript:;" id="btnCancel">取消</a></span>
+                    <span><a href="javascript:;" id="btnConfirm">确认</a></span>
+                 </dd>
+               </dl>
+            </div>
+        </div>
+  </div>
+  <script src="js/tools.js"></script>
+  <script src="js/taskDetail.js"></script>
+</body>
+
+
+
+
+<script>
+
+  $("#userImg").error(function(){
+      // $(this).attr("src","http://www.baidu.com/img/flexible/logo/pc/result.png")
+       $(this).attr("src","images/user/shopheader.png");
+  })
+
+</script>
+</html>

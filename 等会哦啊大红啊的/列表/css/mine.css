@@ -1,0 +1,194 @@
+.mine{
+
+    background: #eee url(../images/bg/bg.png) no-repeat center 0;
+    background-size: 100% auto;
+   padding-bottom:60px ;
+}
+
+.headerMine {display: flex; height: 45px; line-height: 45px; }
+.headerMine .hmLeft{ width: 20%;}
+.headerMine .hmLeft a{ display: block;
+  width: 40px; height: 45px;
+  margin: 0 10px;
+  background: url(../images/icon/message.png) no-repeat center;
+  background-size: 26px auto;
+}
+
+.headerMine .hmMid{flex: 1; text-align: center; color: white; font-weight: bold; font-size: 20px; }
+
+.message{}
+
+
+.headerMine .hmRight{ width: 20%;}
+.headerMine .hmRight a{ display: block;
+    width: 40px; height: 45px;
+    margin: 0 10px;
+    background: url(../images/icon/settings.png) no-repeat center;
+    background-size: 26px auto;
+    float: right;
+  }
+.mineBaseInfo{ background: white ; margin: 10px 15px; border-radius:15px;border: 1px solid #eee;}
+.mineBaseInfo dl{ display:flex; padding: 10px;}
+.mineBaseInfo dt{ }
+.mineBaseInfo dt img{  width: 65px; display: block;}
+.mineBaseInfo dt span{  display: block; text-align: center;}
+.mineBaseInfo dd {flex: 1; margin: 0 0 0 10px; font-size: 14px;}
+.mineBaseInfo dd .bdt01{height: auto; overflow: hidden;}
+.mineBaseInfo dd .bdt01 b{ font-size: 16px;}
+.mineBaseInfo dd .bdt01 a{ font-size: 14px; float: right; display: inline-block; border:1px solid #00acdd;border-radius:15px ;color:#00aced; padding: 2px 8px ; margin: 0 0 0 5px;}
+.mineBaseInfo dd .bdt01 a.btnRecharge{}
+
+
+.mineBaseInfo dd .bdt03{display: flex; align-items: center;}
+.mineBaseInfo dd .bdt03
+.lvProgress{display: inline-block; 
+    margin: 0 10px;
+    height: 14px; width: 100px; border-radius:5px; position: relative; overflow: hidden; background: #eee;
+     box-shadow: 0 0 3px #e1e1e1 inset;}
+.lvProgress em{position: absolute; top:0;left:0; height: 100%;border-radius:5px 0 0 5px;background: #f41251;}
+
+.account{ display: flex; margin: 5px 0; padding: 5px 0;}
+.account li{ flex: 1;}
+.account li{ text-align: center;}
+.account li b{display: block; color:#f41251 ; font-size: 16px;}
+.account li span{display: block; font-size: 12px;}
+
+.msgbox{ height: 40px;  overflow: hidden; border-top:1px solid #eee;padding: 0 15px;}
+.msgList{ }
+.msgList li{ padding: 5px 0;  height: 30px;line-height: 30px;}
+.msgbox p{ position: relative;  padding: 0 20px 0 0;}
+.msgbox p a{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;color:#666;
+    width: 100%;
+    display: block;
+}
+.msgbox p::after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top:1px solid #c5c5c5;
+    border-right:1px solid #c5c5c5;
+    transform: rotate(45deg);
+    right:0px;
+    top:9px;
+}
+.msgbox p a{
+    
+}
+
+
+.ic{
+    background: white;
+margin: 10px 15px;
+border-radius: 15px;
+border: 1px solid #eee;
+/* padding:0 0 10px 0; */
+padding:0 0 0px 0;
+}
+.ic dl{}
+.ic dt a {display: block; height: 35px;position: relative; line-height: 35px; padding: 0 15px;color:#c4c4c4 }
+.ic dt a::after{   
+     position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top:1px solid #c5c5c5;
+    border-right:1px solid #c5c5c5;
+    transform: rotate(45deg);
+    right:15px;
+    top:12px;
+}
+.ic dt a span{  float: left;color:#484848;font-size: 16px;font-weight: bold; }
+.ic dt b{ float: right; }
+.ic dt em{ float: right; margin: 0 15px 0 0;}
+.ic dd{ padding: 10px 0;}
+.iList{display: flex;}
+.iList li{ width: 20%;}
+.iList li{ }
+.iList li a{ display: block; }
+.iList li a img{ display: block; width: 30px; margin: 0 auto; }
+.iList li a span {display: block; text-align: center; color: #767676; font-size: 12px; }
+.ic dt a.nolink::after{
+    display: none;
+}
+
+.myAct{ display: flex; margin: 0 15px; padding: 10px 0;}
+.myAct li{ flex: 1;}
+.myAct li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0;
+    border-radius:30px;
+    margin: 5px 4px;
+}
+.myAct li a.btnPub{background: linear-gradient(45deg,#c15ae9,#b91957,#ed1350);} 
+.myAct li a.btnSign{background: linear-gradient(145deg,#9815cc,#2766ee,#207fd3);} 
+
+.myAct li a i{
+  display: block;
+  width: 30px; height: 30px;
+  background-size: 30px auto;
+  background-position: center;
+  
+}
+
+.myAct li a.btnPub i{ background-image: url(../images/pub.png);}
+.myAct li a.btnSign i{background-image: url(../images/sign.png);}
+.myAct li a b{color:white;font-size: 16px;}
+.myAct li span{display: block; text-align: center; line-height: 14px;color:#767676}
+
+.aList{ margin: 0 0 0 20px; padding: 5px 0;}
+.aList li{border-bottom:1px solid #eee; }
+.aList li:last-child{border-bottom:none; }
+
+.aList li a{ display: block; position: relative; padding: 8px 0;}
+.aList li a span{font-size: 15px; color:#767676}
+.aList li a::after{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-top:1px solid #c5c5c5;
+    border-right:1px solid #c5c5c5;
+    transform: rotate(45deg);
+    right:15px;
+    top:12px;
+}
+
+
+
+/*个人中心*/
+.personal{font-size: 14px;}
+.ubox{margin: 30px 0 0 0;}
+.uheaderimg{ margin: 0 auto;}
+.uheaderimg img { display: block; margin: 0 auto; width: 80px; height: 80px;border-radius:50%}
+.uheaderimg span{ display: block; text-align:center ; color: #00aced; margin: 5px 0; font-size: 16px;}
+
+.ubox dd{}
+.ubox dd.uItem{
+     font-size: 16px; margin: 0 0 0 15px ;
+     border-bottom: 1px solid #eee; padding: 5px 15px 5px 0; position: relative;
+    }
+.ubox dd.uItem.hasArrow{padding: 5px 30px 5px 0;}
+.ubox dd.uItem.hasArrow::after{
+     content: "";
+    position: absolute;
+     right: 15px;
+     top: 14px;
+     width: 10px;
+     height: 10px;
+     border-top:1px solid #c5c5c5;
+     border-right:1px solid #c5c5c5;
+     transform: rotate(45deg);
+}
+
+.uItem>div{ height: auto; overflow: hidden; height: 30px; line-height: 30px;}
+
+
+.uItem .t{ float: left; color: #2d2d2d;}
+.uItem .c{ float: right;}
+
+.logoutBox{ margin: 15px  ;}
+
+.logoutBox .btnLogout{  display: block; color: red; font-weight: bold; text-align: center; font-size: 16px;}

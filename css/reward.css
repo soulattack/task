@@ -1,0 +1,73 @@
+.rwHeader{ color:#767676;position: relative;}
+.rwHeader img{ width: 100%;}
+
+.rwHeader .goback{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url(../images/back.png) no-repeat center;
+    background-size: contain;
+    display: block;
+    top: 10px;
+    left: 10px;
+}
+
+.rwMain{}
+.rwMain .tabs ul{
+    display: flex; height: 42px; border-bottom:1px solid #eee;background: white;
+    box-shadow: 1px 1px 1px 1px #e6e6e6;
+}
+.rwMain .tabs li{ flex: 1; text-align: center; height: 40px; line-height: 40px; font-size: 16px;}
+.rwMain .tabs li.curr{ border-bottom:2px solid #ff6f00;color: #ff6f00;}
+.rwMain .tabs li span{}
+
+.contW{margin: 20px 0 0 0;}
+.rItem { 
+    margin: 6px 10px; background: white; padding: 12px 10px 12px 15px;
+    box-shadow: 0 0 3px #eee;
+    box-shadow: 2px 2px 3px 1px #e6e6e6;
+}
+
+.rItem dl{ display: flex;}
+.rItem dl dt{ width: 15%;}
+.rItem dl dt i{ width:45px; height: 45px;
+    margin: 0 auto;
+    display: block;
+   background: url(../images/bg/six.png);
+   background-size:100% 100% ;
+   text-align: center;
+   line-height: 45px;
+   font-size: 20px;
+   color: #fff;
+}
+
+.rItem dl dd.d1{flex:1; margin: 3px 0 0 10px;}
+.rItem dl dd.d1 h3{font-size: 16px;}
+.rItem dl dd.d1 p{ font-size: 14px;}
+.rItem dl dd.d1 p b{color:orange; margin: 0 10px 0 0;}
+.rItem dl dd.d1 p em{color:#8e8e8e}
+
+.rItem dl dd.linkW{width: 25%;}
+
+
+.rItem dl a.toComplete{ 
+    margin: 3px 0 0 0;
+    display: block; width: 80px; height: 30px; text-align: center;
+   line-height: 30px; border-radius: 32px;
+   border: 1px solid #ff6f00;
+   color: #ff6f00;
+}
+.btnArea{ margin: 20px 10px;}
+.btnArea a{ 
+    display: block;
+  margin:  10px;
+  height: 50px;
+  line-height: 50px;
+  border-radius:25px;
+  color: white; 
+  text-align: center;
+  font-size: 18px;
+}
+
+.btnArea a.btn01{background: linear-gradient(to right,#d6d6d6,#b4b4b4);}
+.btnArea a.btn02{background: linear-gradient(to right,#f6be5d,#ff7a00);}
